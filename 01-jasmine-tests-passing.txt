@@ -1,8 +1,9 @@
-Randomized with seed 85994
+theia@theiaopenshift-adriandp52:/home/project/zntwk-tax_calculator$ npx jasmine
+Randomized with seed 22671
 Started
 .......
 
 
 7 specs, 0 failures
-Finished in 0.007 seconds
-Randomized with seed 85994 (jasmine --random=true --seed=85994)
+Finished in 0.008 seconds
+Randomized with seed 22671 (jasmine --random=true --seed=22671)

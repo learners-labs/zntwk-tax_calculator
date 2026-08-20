@@ -1,2 +1,6 @@
-docker run -it -d -p 8080:80 tax-calculator
-b954df87cf1b19702756915e706e2ca2acb99dda4748dffbf802de9afff49cdc
+theia@theiaopenshift-adriandp52:/home/project/zntwk-tax_calculator$ docker run -it -d -p 8080:80 tax-calculator
+2f8e520d8e7664d26a70f2d2ddeed5fd2010d36568593368ac40d90276678a1c
+
+theia@theiaopenshift-adriandp52:/home/project/zntwk-tax_calculator$ docker ps
+CONTAINER ID   IMAGE            COMMAND                  CREATED         STATUS         PORTS                                     NAMES
+73aa564f1a75   tax-calculator   "/docker-entrypoint.…"   3 seconds ago   Up 3 seconds   0.0.0.0:8080->80/tcp, [::]:8080->80/tcp   vigilant_kare
