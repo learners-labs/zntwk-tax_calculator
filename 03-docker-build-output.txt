@@ -1,0 +1,19 @@
+theia@theiaopenshift-adriandp52:/home/project/zntwk-tax_calculator$ docker build -t tax-calculator .
+[+] Building 0.9s (11/11) FINISHED                     docker:default
+ => [internal] load build definition from Dockerfile             0.0s
+ => => transferring dockerfile: 305B                             0.0s
+ => [internal] load metadata for docker.io/library/nginx:latest  0.7s
+ => [internal] load .dockerignore                                0.0s
+ => => transferring context: 2B                                  0.0s
+ => [1/6] FROM docker.io/library/nginx:latest@sha256:0e768ba368  0.0s
+ => [internal] load build context                                0.0s
+ => => transferring context: 157B                                0.0s
+ => CACHED [2/6] COPY favicon.ico /usr/share/nginx/html/favicon  0.0s
+ => CACHED [3/6] COPY index.html /usr/share/nginx/html/index.ht  0.0s
+ => CACHED [4/6] COPY script.js /usr/share/nginx/html/script.js  0.0s
+ => CACHED [5/6] COPY style.css /usr/share/nginx/html/style.css  0.0s
+ => CACHED [6/6] COPY taxCalculator.js /usr/share/nginx/html/ta  0.0s
+ => exporting to image                                           0.0s
+ => => exporting layers                                          0.0s
+ => => writing image sha256:28fbc753d1fe065815c3286b996a2a0b1bd  0.0s
+ => => naming to docker.io/library/tax-calculator  

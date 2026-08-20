@@ -1,0 +1,2 @@
+docker run -it -d -p 8080:80 tax-calculator
+b954df87cf1b19702756915e706e2ca2acb99dda4748dffbf802de9afff49cdc
